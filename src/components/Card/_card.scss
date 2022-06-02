@@ -1,0 +1,29 @@
+.flex{
+    display: flex;
+}
+.down{
+    transform: translateY(6rem);
+}
+.card{
+    .image{
+        img{
+            max-width: 240px;
+        }
+        h2{
+            font-family: "Poppins", sans-serif;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+    }
+    p{
+        font-family: "PT Serif", sans-serif;
+        font-weight: 400;
+        font-size: 1.125rem;
+        writing-mode: vertical-rl;
+    }
+}
+@media(max-width: 900px){
+    .down{
+        transform: translateY(0);
+    }
+}

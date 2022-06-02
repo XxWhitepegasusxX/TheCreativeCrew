@@ -1,0 +1,27 @@
+//FONTS
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap');
+
+//IMPORTS-STYLES
+@import '../components/Header/header';
+@import '../components/Card/card';
+@import '../components/Gallery/gallery';
+@import '../components/Footer/footer';
+
+//RESETS
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+a, li, ul{
+    list-style: none;
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+}
